@@ -6,7 +6,7 @@
 
 ## Getting Started
 - After cloning, cd into the root of the project and run ```docker-compose up -d```
-- Once the docker containers are up run ```docker-compose exec app``` and run the following commands: <br/>
+- Once the docker containers are up run ```docker-compose exec app bash``` and run the following commands: <br/>
 ```bash
 $ composer install
 $ php artisan key:generate
